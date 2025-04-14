@@ -28,7 +28,7 @@ A modern web application for encrypting and decrypting text using the Hill Ciphe
 
 1. Enter your plaintext (only letters A-Z are accepted)
 
-2. Select matrix size (2-5)
+2. Select matrix size (2-6)
 3. Enter your key matrix values row by row
 4. Click "Encrypt" to get your ciphertext
 
@@ -48,19 +48,14 @@ git clone https://github.com/yourusername/hill-cipher-app.git
 cd hill-cipher-app
 ```
 
-1. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
-
-1. Run the application:
+2. Run the application:
 
 ```bash
 python app.py
 ```
 
-1. Open your browser and navigate to:
+3. Open your browser and navigate to:
 
 ```plaintext
 http://localhost:5000
@@ -92,7 +87,3 @@ http://localhost:5000
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
