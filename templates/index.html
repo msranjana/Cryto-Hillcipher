@@ -261,10 +261,9 @@
     }
 
     .feature-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-        display: block;
-        text-align: center;
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        display: inline;
     }
 
     .feature-card h3 {
@@ -273,12 +272,17 @@
         margin-bottom: 1rem;
         color: #2d3748;
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
     }
 
     .feature-card p {
         color: #4a5568;
         line-height: 1.6;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
     }
 
     /* Demo Section */
@@ -621,33 +625,33 @@
         <h2>Key Features</h2>
         <div class="features-grid">
             <div class="feature-card">
-                <span class="feature-icon">🔐</span>
-                <h3>Secure Encryption</h3>
+                <span class="feature-icon"></span>
+                <h3>🔐 Secure Encryption</h3>
                 <p>Implement robust matrix-based encryption using modular arithmetic operations for secure message encoding.</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">🔓</span>
-                <h3>Reliable Decryption</h3>
+                <span class="feature-icon"></span>
+                <h3>🔓 Reliable Decryption</h3>
                 <p>Decrypt messages using matrix inverse calculations with automatic invertibility checking for error-free results.</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">📐</span>
-                <h3>Custom Matrices</h3>
+                <span class="feature-icon"></span>
+                <h3>📐 Custom Matrices</h3>
                 <p>Support for variable matrix sizes (2x2 to 5x5) allowing flexibility in encryption strength and block size.</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">✅</span>
-                <h3>Input Validation</h3>
+                <span class="feature-icon"></span>
+                <h3>✅ Input Validation</h3>
                 <p>Real-time validation of matrix dimensions, invertibility, and input format to prevent errors.</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">🎓</span>
-                <h3>Educational Tool</h3>
+                <span class="feature-icon"></span>
+                <h3>🎓 Educational Tool</h3>
                 <p>Perfect for learning cryptography concepts, linear algebra, and understanding mathematical encryption methods.</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">⚡</span>
-                <h3>Real-time Processing</h3>
+                <span class="feature-icon"></span>
+                <h3>⚡Real-time Processing</h3>
                 <p>Instant encryption and decryption with immediate feedback and error handling for seamless user experience.</p>
             </div>
         </div>
@@ -703,11 +707,6 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="footer-links">
-                <a href="#introduction">About</a>
-                <a href="#features">Features</a>
-                <a href="#demo">Demo</a>
-            </div>
             <p>&copy; 2025 Hill Cipher Tool. Built for educational purposes and cryptography learning.</p>
             <p style="margin-top: 0.5rem; color: #a0aec0; font-size: 0.9rem;">
                 Explore the mathematical beauty of matrix-based encryption
